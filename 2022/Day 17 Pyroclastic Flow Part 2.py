@@ -95,6 +95,7 @@ next_height = height + periodic_height_differences[0]
 height, jet = next_rock(chamber, height, jet, n % 5)
 print(height == next_height) # Test
 
+# Print visual represntation
 # for y in range(height, 0, -1):
 #     s = "".join("#" if chamber[x][y] == 1 else "." for x in range(1, 8))
 #     print("|" + s + "|")

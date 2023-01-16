@@ -72,6 +72,7 @@ for n in range(N):
         jet += 1
         jet %= len(jet_pattern)
 
+# Print visual representation
 # for y in range(height, 0, -1):
 #     s = "".join("#" if chamber[x][y] == 1 else "." for x in range(1, 8))
 #     print("|" + s + "|")
